@@ -34,7 +34,7 @@ public class HelpServlet extends HttpServlet {
         //数据库查询
         int version=0;
         try {
-            version = Integer.parseInt(request.getParameter("Version"));
+            version = Integer.parseInt(request.getParameter("version"));
         }catch (Exception e){
             e.printStackTrace();
         }
